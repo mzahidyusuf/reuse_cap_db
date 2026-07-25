@@ -1,6 +1,6 @@
 namespace reuse.db;
 
-// entiry for storing manager detail
+//entity for storing manager detail
 entity Managers
 {   
     key managerId : Integer;
