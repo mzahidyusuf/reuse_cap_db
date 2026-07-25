@@ -9,3 +9,12 @@ entity Managers
     email         : String(100);
     phone         : String(20);
 }
+
+entity Employees
+{
+    key employeeId  : Integer;
+    name        : String(100);
+    email       : String(100);
+    Phone       : String(20);
+    managerId   : Integer;
+}
